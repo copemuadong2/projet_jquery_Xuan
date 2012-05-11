@@ -1,6 +1,6 @@
 body{
 	margin:0px;
-	background-color:#777777;
+	background-color:#CDDCC9;
 }
 #wrapper{
 	width: 960px;
@@ -9,7 +9,7 @@ body{
 }
 header{
 	height: 100px;
-	background-color:green;
+	background-color:#37868B;
 	oveflow:hidden;
 }
 @font-face {
@@ -44,7 +44,7 @@ article{
 	margin-top:20px;
 	margin-bottom:20px;
 }
-.content{
+#content{
 	width:960px;
 	min-height:500px;
 	margin-top:20px;
@@ -59,31 +59,31 @@ article{
 	float:left;
 
 }
-.content #grande_image img{
+#content #grande_image img{
 	margin-top:20px;
 	width:430px;
 }
 
-.content>.liste_titre{
+#content>#mon_article{
 	width:400px;
 	position:relative;
 	float:right;
 	margin-right:80px;
 }
 
-.content>.liste_titre>ul>li{
+#content>#mon_article>ul>li{
 	color:green;
 }
-.content>.liste_titre>ul>li>a{
+#content>#mon_article>ul>li>a{
 	text-decoration:none;
 	color:#EF6B5F;
 	cursor:pointer;
 	cursor:hand
 }
-.content>.liste_titre>ul>li>a:hover{
+#content>#mon_article>ul>li>a:hover{
 	color:#00AA92;
 }
-article>h2{
+#mon_article>h2{
 	margin-left:20px;
 	color:#EF6B5F;
 
@@ -109,7 +109,7 @@ article>h2{
 }
 footer{
 	height: 50px;
-	background-color:green;
+	background-color:#37868B;
 	clear:both;
 }
 footer>p{

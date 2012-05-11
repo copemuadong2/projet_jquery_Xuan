@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Preview</title>
+        <title>Tooltip</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		
 		
 		<script type="text/javascript" src="jquery.min.js"></script>
 		<script type="text/javascript" src="tooltip.js"></script>
-
+		<script>
+		
+			$(document).ready(function(){
+		        
+		        $('#liste_titre a').tooltip();
+			});
+			
+		</script>
     </head>
     <body>
 		<div id="wrapper">
@@ -20,38 +27,17 @@
 				<div id="content">
 					<div id="liste_titre">
 						<ul>
-							<li><a href="jquerytooltip_page2.html" rel="tool" >Lorem ipsum dolor sit amet</a></li>
-							<li><a href="jquerytooltip_page3.html" rel="tool" >Reference site about Lorem Ipsum, giving information on its origins</a></li>
-							<li><a href="jquerytooltip_page4.html" rel="tool" >Phasellus sit amet magna vitae turpis venenatis porttitor</a></li>
-							<li><a href="jquerytooltip_page5.html" rel="tool" >Générateur en ligne de textes aléatoires</a></li>
-							<li><a href="jquerytooltip_page6.html" rel="tool" >when our power of choice is untrammelled</a></li>
-							<li><a href="jquerytooltip_page7.html" rel="tool" >GAt vero eos et accusamus et iusto odio dignissimos</a></li>
+							<li><a href="jquerytooltip_page2.html" rel="tooltip" >aLorem ipsum dolor sit amet</a></li>
+							<li><a href="jquerytooltip_page3.html" rel="tooltip" >Reference site about Lorem Ipsum, giving information on its origins</a></li>
+							<li><a href="jquerytooltip_page4.html" rel="tooltip" >Phasellus sit amet magna vitae turpis venenatis porttitor</a></li>
+							<li><a href="jquerytooltip_page5.html" rel="tooltip" >Générateur en ligne de textes aléatoires</a></li>
+							<li><a href="jquerytooltip_page6.html" rel="tooltip" >when our power of choice is untrammelled</a></li>
+							<li><a href="jquerytooltip_page7.html" rel="tooltip" >GAt vero eos et accusamus et iusto odio dignissimos</a></li>
 						</ul>
 					</div>
 
 					<div id="grande_image">
-						<img src="image/img5.jpg"/>
-					</div>
-				</div>
-				<h2>Cools images</h2>
-				<div id="liste_image">
-					<div class="image">
-						<a href="jquerytooltip_page2.html" rel="tool" alt="image2"><img src="image/img2.jpg"/></a>
-					</div>
-					<div class="image">
-						<a href="jquerytooltip_page3.html" rel="tool" alt="image3"><img src="image/img3.jpg"/></a>
-					</div>
-					<div class="image">
-						<a href="jquerytooltip_page4.html" rel="tool" alt="image4"><img src="image/img4.jpg"/></a>
-					</div>
-					<div class="image">
-						<a href="jquerytooltip_page5.html" rel="tool" alt="image5"><img src="image/img5.jpg"/></a>
-					</div>
-					<div class="image">
-						<a href="jquerytooltip_page6.html" rel="tool" alt="image6"><img src="image/img6.jpg"/></a>
-					</div>
-					<div class="image">
-						<a href="jquerytooltip_page7.html" rel="tool" alt="image7"><img src="image/img7.jpg"/></a>
+						<img src="image/img8.jpg"/>
 					</div>
 				</div>
 			</article>
