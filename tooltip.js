@@ -2,6 +2,8 @@
  * A jQuery plugin tooltip
  * Author: TRINH Thi Thanh Xuan
  * Version: 1.8
+ * License : Dual MIT and GPL licenses (I <3 free stuffs)
+ * 
  */
 (function($){
 
@@ -44,7 +46,7 @@
 				'color':settings.color,
 				'width':settings.width,
 				'font-size':'15px',
-				'display':'none',
+				'display':'none'
 			}).fadeIn(400);
 
 			$(this).append(tooltip);
