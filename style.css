@@ -11,7 +11,7 @@ body{
 header{
 	height: 100px;
 	background-color:#37868B;
-	oveflow:hidden;
+	overflow:hidden;
 }
 @font-face {
    font-family: 'Top Secret';
